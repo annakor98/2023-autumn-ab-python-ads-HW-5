@@ -16,13 +16,13 @@
 ## Требования к содержанию репозитория с решением
 * ``README.md`` с кратким описанием проекта
 * ``poetry.lock`` и ``pyproject.toml``
-* Makefile (аналогично ДЗ#3)
-* Папка app
+* ``Makefile`` (аналогично ДЗ#3)
+* Папка ``app``
     * ``main.py`` с реализованными endpoints
     * ``model_predict.py`` с функциями для предсказания с помощью каждого из бейзлайнов ``constant-fraud``, ``constant-clean``, ``first-hypothesis``
     * ``model_estimate.py`` с функциями, оценивающими потери в рублях для каждого из бейзлайнов ``constant-fraud``, ``constant-clean``, ``first-hypothesis``
     * ``schemas.py`` со всеми необходимыми схемами
-* Папка tests
+* Папка ``tests``
 
 ## Критерии оценки
 * Реализованы все enpoints - **4 балла**
