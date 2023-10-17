@@ -20,7 +20,6 @@
 * ``model_estimate.py`` с функциями, оценивающими потери в рублях для каждого из бейзлайнов ``constant-fraud``, ``constant-clean``, ``first-hypothesis``
 * ``poetry.lock`` и ``pyproject.toml`` - создадутся автоматически при создании нового проекта в PyCharm с использованием poetry и установке зависимостей с помощью ``poetry add``
 * ``schemas.py`` со всеми необходимыми схемами
-* Файлы ``data_fraud.json`` и ``data_clean.json``
 
 ## Критерии оценки
 * Реализованы все enpoints - **5 баллов**
