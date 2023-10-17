@@ -23,6 +23,6 @@
 * Файлы ``data_fraud.json`` и ``data_clean.json``
 
 ## Критерии оценки
-* Реализованы все enpoints - 5 баллов
-* В endpoint'ах ``/cost/{error_type}``, ``/loss/{baseline}``, ``/predict/{baseline}`` реализована правильная типизация параметров (только 2 возможных значения для ``error_type`` и 3 для ``baseline``). Request/response bodies реализованы с использованием ``pydantic.BaseModel`` - 2 балла
-* В репозитории есть все необходимые файлы - 1 балл
+* Реализованы все enpoints - **5 баллов**
+* В endpoint'ах ``/cost/{error_type}``, ``/loss/{baseline}``, ``/predict/{baseline}`` реализована правильная типизация параметров (только 2 возможных значения для ``error_type`` и 3 для ``baseline``). Request/response bodies реализованы с использованием ``pydantic.BaseModel`` - **2 балла**
+* В репозитории есть все необходимые файлы - **1 балл**
